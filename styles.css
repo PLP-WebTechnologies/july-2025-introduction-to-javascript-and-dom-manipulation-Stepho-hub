@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 10px solid #d71f2b;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border: 5px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Author Aside */
+aside {
+  background: #e0f7fa;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border: 1px solid #00796b;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #90e0ef;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.share-buttons button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.share-buttons button:hover {
+  background: #0096c7;
+}
+
+/* Typography */
+h2 {
+  color: #0077b6;
+  margin-top: 0;
+}
+
+h3 {
+  color: #be140b;
+}
+
+/* Box Model Demo */
+section, aside, footer, header {
+  box-sizing: border-box;
+}
